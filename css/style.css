@@ -1,59 +1,38 @@
+* {
+    color:rgb(146, 146, 146);
+
+}
+
 body {
-    position: relative;
+    background-color: rgb(229, 229, 229);
 }
 
-header {
-    background-color: linen;
+.colorbox{
+    background-color: rgb(210, 210, 210);
+    opacity: .9;
 }
 
-section {
-    background-color: lightpink;
+#myarticle h2, #myarticle p {
+    color:black;
 }
 
-article {
-    background-color: lightblue;
-}
-
-aside {
-    background-color: lavender;
-    max-width: 500px;
+aside h2 , aside p {
+    text-align: right;
+    color: rgb(8, 16, 50);
 }
 
 div {
-    background-color: lightgoldenrodyellow;
-    max-width: 80%;
+    width: 200px;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 15px;
 }
 
-.colorbox {
-    /* padding: 5px; */
-    /* margin: 50px; */
-    /* display: block; */
-    max-width: 100%;
-}
-
-
-.boxy.square {
-    border: 2px solid red;
-    border-radius: 15px;
-}
-
-ul {
-    list-style-type: none;  /*removes the bullets from the list*/
-    margin: 0;  /* removes default margin*/
-    padding: 0; /* removes default padding*/
-}
-li {
-    display: inline;  
-    /* makes the list items sit next to each other */
-    /* float: left; */
-}
-
-li a {
-    display: block; 
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #aaa;
+footer p {
+    float: right;
+    position: sticky;
+    width: 300px;
+    bottom: 0;
+    color: black;
+    background-color: rgb(170, 170, 170);
 }
